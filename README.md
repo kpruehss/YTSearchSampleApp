@@ -1,25 +1,10 @@
-# ReduxSimpleStarter
+# YouTube search App
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+### App Overview
 
-### Getting Started
+This app is a simple training SPA focusing on React. A simple front-end
+is rendered consisting of several components (search-bar, video container with
+details, a video list sidebar, and video item to populate the sidebar).
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+The app lets you make AJAX calls to youtube API to search for videos while
+Lodash is used to debounce the API calls for QoL.
